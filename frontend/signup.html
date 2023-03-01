@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./styles/signup.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="cont">
+        <h3>This is Signup Page</h3>
+ 
+
+    <form id="form">
+        <input id="username" type="text" placeholder="Enter the username">
+        <input id="email" type="text" placeholder="Enter the email">
+        <input id="dob" type="date" placeholder="Enter the Date of Birth">
+        <select id="role">
+            <option value="">Select Role</option>
+            <option value="Admin">Admin</option>
+            <option value="Explorer">Explorer</option>
+        </select>
+        <input id="location" type="text" placeholder="Enter the location">
+        <input  id="password" type="text" placeholder="Enter the password">
+        <input  id="confirmPassword" type="text" placeholder="Confirm the pasword">
+
+        <input type="submit" value="Signup" />
+    </form>
+    </div>
+    <div id="alt"> </div>
+</body>
+</html>
+
+<script src="./scripts/signup.js" type="module"></script>
+
+<!-- {
+    username:{type: String, unique:true},
+    email:{type: String, unique:true},
+    dob:String,
+    role:{type:String, enum:["Admin","Explorer"]},
+    location:String,
+    password:String
+} -->

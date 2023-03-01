@@ -1,0 +1,11 @@
+body{
+   background-position:top;
+    background-repeat: no-repeat;
+    background-image: url("https://media.tenor.com/UES1amnnt4cAAAAi/whiskey-ei-suoi-amici-coccole-sonore.gif");
+}
+
+#navbar{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}

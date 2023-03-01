@@ -1,0 +1,24 @@
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: top; */
+    background-image: url("https://media1.giphy.com/media/Ltz1ZA728qKw4mEY94/giphy.gif?cid=ecf05e47btqrs6coa6kcdkf3ouqcyipqxtzqaajgozbj4iuq&rid=giphy.gif");
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+
+#cont{
+    width: 30%;
+    margin: auto;
+}
+
+
+h3{
+    color: rgba(4, 49, 100, 0.75);
+}

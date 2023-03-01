@@ -1,0 +1,23 @@
+#form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+#cont{
+    width: 30%;
+    margin: auto;
+}
+
+body{
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://cdn.dribbble.com/users/2234430/screenshots/8587843/media/5a7b6b3be7edd17ae98a25d010277e62.gif");
+
+}
+
+h3{
+    color: rgb(114, 137, 228);
+}
